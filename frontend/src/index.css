@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Theme variables ────────────────────────────────────────────────────────
+   data-theme="dark" on <html> switches every variable simultaneously.
+   Tailwind classes that use hardcoded colours are patched below with
+   !important overrides so no JSX needs to change.
+   ─────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  --bg-page:       #ffffff;
+  --bg-surface:    #f8fafc;
+  --bg-muted:      #f1f5f9;
+  --bg-input:      #ffffff;
+
+  --text-primary:  #111827;
+  --text-secondary:#6b7280;
+  --text-muted:    #9ca3af;
+
+  --border-color:  #e5e7eb;
+
+  --theme-transition: 0.2s ease;
+}
+
+[data-theme="dark"] {
+  --bg-page:       #0f172a;
+  --bg-surface:    #1e293b;
+  --bg-muted:      #334155;
+  --bg-input:      #1e293b;
+
+  --text-primary:  #f1f5f9;
+  --text-secondary:#cbd5e1;
+  --text-muted:    #64748b;
+
+  --border-color:  #334155;
+}
+
+/* ── Smooth transitions ───────────────────────────────────────────────────── */
+*, *::before, *::after {
+  transition:
+    background-color var(--theme-transition),
+    border-color     var(--theme-transition),
+    color            var(--theme-transition);
+}
+
+/* ── Page shell ──────────────────────────────────────────────────────────── */
+html, body {
+  background-color: var(--bg-page);
+  color:            var(--text-primary);
+}
+
+/* ── Global fonts ────────────────────────────────────────────────────────── */
+* { font-family: Outfit; }
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style:  normal;
+}
+
+/* ── NavLink active underline (existing behaviour, unchanged) ────────────── */
+a.active hr { display: block; }
+
+/* ── Mobile active nav item (existing behaviour, unchanged) ─────────────── */
+@media (max-width: 640px) {
+  a.active {
+    background-color: black;
+    color: white;
+  }
+}
+
+/* ── Tailwind colour overrides for dark mode ─────────────────────────────── */
+
+/* Page backgrounds */
+.bg-white      { background-color: var(--bg-page)    !important; }
+.bg-gray-50    { background-color: var(--bg-page)    !important; }
+.bg-gray-100   { background-color: var(--bg-muted)   !important; }
+
+/* Sidebar / drawer */
+.bg-slate-100  { background-color: var(--bg-muted)   !important; }
+
+/* Text colours */
+.text-gray-700 { color: var(--text-secondary) !important; }
+.text-gray-600 { color: var(--text-secondary) !important; }
+.text-gray-500 { color: var(--text-muted)     !important; }
+
+/* Borders */
+.border        { border-color: var(--border-color) !important; }
+
+/* Mobile sidebar drawer */
+[data-theme="dark"] .absolute.bg-white {
+  background-color: var(--bg-surface) !important;
+  color:            var(--text-primary) !important;
+}
+
+/* Cart count badge stays black/white in both modes — intentional */
+
+/* ── Form elements ───────────────────────────────────────────────────────── */
+select, input, textarea {
+  background: var(--bg-input);
+  color:      var(--text-primary);
+  border-color: var(--border-color);
+}
+
+/* ── Hero section — hardcoded #414141 text/lines become white in dark mode ── */
+[data-theme="dark"] .text-\[\#414141\] {
+  color: #ffffff !important;
+}
+[data-theme="dark"] .bg-\[\#414141\] {
+  background-color: #ffffff !important;
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { display: none; }
+
+/* ── Hide number input spinner arrows globally ─────────────────────────────── */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}

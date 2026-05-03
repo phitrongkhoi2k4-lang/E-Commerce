@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Theme variables ────────────────────────────────────────────────────────
+   All color decisions live here. Tailwind utility classes that use
+   hardcoded colors (bg-gray-50, text-gray-600 …) are overridden by these
+   variables only where necessary — the rest of the UI is untouched.
+   ─────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* backgrounds */
+  --bg-page:       #f9fafb;   /* was bg-gray-50  */
+  --bg-surface:    #ffffff;   /* cards, panels   */
+  --bg-muted:      #f3f4f6;   /* hover, stripes  */
+  --bg-input:      #ffffff;
+
+  /* text */
+  --text-primary:  #111827;
+  --text-secondary:#4b5563;   /* was text-gray-600 */
+  --text-muted:    #9ca3af;
+
+  /* borders */
+  --border-color:  #e5e7eb;
+
+  /* brand accent (pink) — unchanged */
+  --accent:        #C586A5;
+  --accent-light:  #ffebf5;
+
+  /* transition speed for all theme colour changes */
+  --theme-transition: 0.2s ease;
+}
+
+[data-theme="dark"] {
+  --bg-page:       #0f172a;
+  --bg-surface:    #1e293b;
+  --bg-muted:      #334155;
+  --bg-input:      #1e293b;
+
+  --text-primary:  #f1f5f9;
+  --text-secondary:#cbd5e1;
+  --text-muted:    #64748b;
+
+  --border-color:  #334155;
+
+  /* keep brand accent readable on dark */
+  --accent:        #d49dbf;
+  --accent-light:  #3b1f2e;
+}
+
+/* ── Smooth transitions on every element ──────────────────────────────────── */
+*, *::before, *::after {
+  transition:
+    background-color var(--theme-transition),
+    border-color     var(--theme-transition),
+    color            var(--theme-transition);
+}
+
+/* ── Apply variables to the page shell ───────────────────────────────────── */
+html, body {
+  background-color: var(--bg-page);
+  color:            var(--text-primary);
+}
+
+/* ── Global font ─────────────────────────────────────────────────────────── */
+* {
+  font-family: Outfit;
+}
+
+/* ── Form elements ───────────────────────────────────────────────────────── */
+select, input, textarea {
+  border:        1px solid var(--border-color);
+  outline-color: var(--accent);
+  border-radius: 4px;
+  background:    var(--bg-input);
+  color:         var(--text-primary);
+}
+
+/* ── Sidebar active state ────────────────────────────────────────────────── */
+.active {
+  background-color: var(--accent-light);
+  border-color:     var(--accent);
+}
+
+/* ── Utility helpers used by Tailwind-generated classes ──────────────────── */
+
+/* bg-gray-50  →  page background */
+.bg-gray-50   { background-color: var(--bg-page)    !important; }
+
+/* bg-gray-100 →  muted surface (table header, etc.) */
+.bg-gray-100  { background-color: var(--bg-muted)   !important; }
+
+/* bg-white    →  card / panel surface */
+.bg-white     { background-color: var(--bg-surface)  !important; }
+
+/* text-gray-600 / text-gray-700 →  body text */
+.text-gray-600 { color: var(--text-secondary) !important; }
+.text-gray-700 { color: var(--text-secondary) !important; }
+
+/* border (plain) */
+.border        { border-color: var(--border-color) !important; }
+
+/* bg-slate-100 (dropdown in navbar) */
+.bg-slate-100  { background-color: var(--bg-muted)  !important; }
+
+/* ── Scrollbar ────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { display: none; }
