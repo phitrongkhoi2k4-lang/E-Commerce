@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="-s0QxRQQTqG8Kb-gE8Ix">
+    <mxGraphModel dx="2239" dy="1146" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Customer" vertex="1">
+          <mxGeometry height="1219" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Frontend" vertex="1">
+          <mxGeometry height="1219" width="150" x="251" y="31" as="geometry" />
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Backend API" vertex="1">
+          <mxGeometry height="1219" width="150" x="501" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Database" vertex="1">
+          <mxGeometry height="1219" width="150" x="741" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Admin" vertex="1">
+          <mxGeometry height="1219" width="35" x="948" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-6" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="opt" vertex="1">
+          <mxGeometry height="587" width="703" x="365" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-7" parent="2wBcKVIOxlqgC1_MZjUr-6" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Admin manages review]" vertex="1">
+          <mxGeometry height="20" width="673" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-8" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-2" value="Open order history">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="244" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-9" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-2" value="Click Write Review">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="244" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-10" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-3" value="Send review data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="496" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-11" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-3" style="curved=1;endArrow=block;rounded=0;" target="2wBcKVIOxlqgC1_MZjUr-3" value="Validate review data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="291" />
+              <mxPoint x="650" y="321" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-12" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-4" value="Save review">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="737" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-13" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-3" value="Save success">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="429" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-14" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-2" value="Return review success">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="499" y="483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-15" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-1" value="Show review on product page">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="247" y="537" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-16" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-2" value="Open review management">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="728" y="638" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-17" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-3" value="Request review list">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="496" y="692" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-18" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-4" value="Get reviews">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="737" y="746" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-19" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-3" value="Return reviews">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-20" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-2" value="Return review data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="499" y="854" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-21" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-2" value="Reply or delete review">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="728" y="908" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-22" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-3" value="Send admin action">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="496" y="962" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-23" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-4" value="Update review information">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="737" y="1016" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-24" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-3" value="Update success">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wBcKVIOxlqgC1_MZjUr-25" edge="1" parent="1" source="2wBcKVIOxlqgC1_MZjUr-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="2wBcKVIOxlqgC1_MZjUr-2" value="Return action success">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="499" y="1124" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

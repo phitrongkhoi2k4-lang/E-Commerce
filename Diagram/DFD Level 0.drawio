@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="1LH524II161nml6suX0P">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BojlUZYtjx9VJMUGqupt-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Customer" vertex="1">
+          <mxGeometry height="54" width="128" x="90" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="BojlUZYtjx9VJMUGqupt-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Admin" vertex="1">
+          <mxGeometry height="54" width="105" x="508" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="BojlUZYtjx9VJMUGqupt-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Payment Service" vertex="1">
+          <mxGeometry height="54" width="178" x="471" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BojlUZYtjx9VJMUGqupt-4" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Ecommerce System" vertex="1">
+          <mxGeometry height="153" width="153" x="268" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="BojlUZYtjx9VJMUGqupt-5" edge="1" parent="1" source="BojlUZYtjx9VJMUGqupt-1" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.37;entryX=0;entryY=0.45;rounded=0;" target="BojlUZYtjx9VJMUGqupt-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="199" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BojlUZYtjx9VJMUGqupt-6" edge="1" parent="1" source="BojlUZYtjx9VJMUGqupt-2" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.59;entryX=1;entryY=0.81;rounded=0;" target="BojlUZYtjx9VJMUGqupt-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="446" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BojlUZYtjx9VJMUGqupt-7" edge="1" parent="1" source="BojlUZYtjx9VJMUGqupt-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.2;entryX=0;entryY=0.36;rounded=0;" target="BojlUZYtjx9VJMUGqupt-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="446" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BojlUZYtjx9VJMUGqupt-8" edge="1" parent="1" source="BojlUZYtjx9VJMUGqupt-3" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.64;entryX=1;entryY=0.3;rounded=0;" target="BojlUZYtjx9VJMUGqupt-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="446" y="167" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BojlUZYtjx9VJMUGqupt-9" edge="1" parent="1" source="BojlUZYtjx9VJMUGqupt-4" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.55;entryX=1;entryY=0.63;rounded=0;" target="BojlUZYtjx9VJMUGqupt-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BojlUZYtjx9VJMUGqupt-10" edge="1" parent="1" source="BojlUZYtjx9VJMUGqupt-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.71;entryX=0;entryY=0.41;rounded=0;" target="BojlUZYtjx9VJMUGqupt-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="446" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
